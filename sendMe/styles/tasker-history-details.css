@@ -1,0 +1,101 @@
+.more-detailed {
+  flex-direction: column;
+  margin-left: 20px;
+  width: 80%;
+  /* border: 1px solid; */
+}
+/* banner */
+.more-detailed .banner {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #003cc2;
+  border-radius: 20px;
+  padding: 10px 20px;
+  margin-bottom: 20px;
+}
+.more-detailed .link:hover {
+  border: 1px solid #2cd23c;
+}
+.more-detailed .banner p {
+  font-size: 15px;
+}
+/* div */
+.more-detailed .banner div {
+  display: flex;
+  flex-direction: column;
+}
+.more-detailed .banner b {
+  font-size: 15px;
+  color: #003cc2;
+}
+.more-detailed .banner div span {
+  font-size: 13px;
+}
+
+/* message */
+.more-detailed .banner .message {
+  /* border: 1px solid #000000; */
+}
+/* .more-detailed #conversation {
+  position: absolute;
+  background-color: white;
+} */
+.more-detailed .banner .right {
+  display: flex;
+  align-items: end;
+  /* border: 1px solid red; */
+}
+.more-detailed .banner .right .bubble {
+  background-color: #003cc2;
+  color: white;
+}
+
+.more-detailed .banner .message .bubble {
+  /* height: 20px; */
+  width: fit-content;
+  max-width: 300px;
+  border: 1px solid #003cc2;
+  margin-bottom: 10px;
+  /* color: white; */
+  border-radius: 30px;
+}
+.more-detailed .banner .message .bubble span {
+  font-size: 15px;
+  /* color: black; */
+  padding: 10px 15px;
+}
+/* input */
+.more-detailed .banner input {
+  border: none;
+  border-bottom: 1px solid #003cc2;
+  padding: 10px 10px;
+  /* border-radius: 10px; */
+  width: 90%;
+}
+.more-detailed .banner form {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  /* border: 1px solid #003cc2; */
+}
+.more-detailed .banner button {
+  background-color: #2cd23c;
+  color: white;
+  border-radius: 10px;
+  border: none;
+  margin-left: 5px;
+  padding: 10px 10px;
+  cursor: pointer;
+}
+@media (max-width: 750px) {
+  .more-detailed {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .more-detailed .banner img {
+    width: 100%;
+    height: auto;
+  }
+}

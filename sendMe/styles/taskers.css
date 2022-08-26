@@ -1,0 +1,49 @@
+.taskers {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid black; */
+}
+.taskers .wrapper {
+  /* border: 1px solid; */
+  flex-wrap: wrap;
+  justify-content: left;
+}
+.taskers .wrapper .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 240px;
+  height: 250px;
+  margin: 5px;
+  padding: 5px;
+  border: 1px solid #003cc2;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.taskers .wrapper .container img {
+}
+.taskers .wrapper .container .texts {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+  /* border: 1px solid; */
+  height: 80px;
+  color: #003cc2;
+}
+.taskers .wrapper .container .texts b {
+}
+.taskers .wrapper .container .texts .title {
+  display: flex;
+  font-size: 17px;
+}
+.taskers .wrapper .container .texts div {
+  display: flex;
+  /* justify-content: center; */
+}
+.taskers .wrapper .container .texts div .stars {
+  font-size: 25px;
+  color: rgb(238, 212, 14);
+}
+.taskers .wrapper .container .texts div .ratings {
+  font-size: 13px;
+}

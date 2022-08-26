@@ -1,0 +1,12 @@
+.more-detailed form .input-group {
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
+}
+.more-detailed form .input-group label {
+  height: 20px;
+  padding-bottom: 10px;
+}
+.more-detailed form .input-group input {
+  height: 20px;
+}

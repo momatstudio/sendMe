@@ -1,0 +1,192 @@
+.single-task {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+  width: 100%;
+  /* border: 1px solid; */
+}
+.single-task .wrapper {
+  flex-direction: column;
+  align-items: center;
+}
+.cancel {
+  position: absolute;
+  display: flex;
+  justify-content: end;
+  width: 435px;
+  margin-top: -45px;
+  /* border: 1px solid; */
+}
+.cancel .cancel-tasker-section {
+  cursor: pointer;
+}
+.edit-task {
+  position: absolute;
+  /* border: 1px solid; */
+  width: 71%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: end;
+}
+.edit-task a {
+  color: red;
+}
+.single-task .wrapper .task-content {
+  display: flex;
+  opacity: 100%;
+  justify-content: center;
+  width: 100%;
+  border: 1px solid #003cc2;
+  background-color: white;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+.single-task .wrapper .tasker-section {
+  display: none;
+  opacity: 100%;
+  position: absolute;
+  width: 400px;
+  margin-top: 47px;
+  padding: 50px;
+  flex-direction: column;
+  align-items: center;
+}
+.single-task .wrapper .task-content h1,
+.single-task .wrapper .task-content h2 {
+  color: #003cc2;
+}
+.single-task .wrapper .task-content .image,
+.single-task .wrapper .task-content .task-texts {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  /* height: 400px; */
+  /* border: 1px solid; */
+  margin: 10px;
+}
+.single-task .wrapper .task-content .task-texts .taskee {
+  display: flex;
+  justify-content: space-between;
+}
+.single-task .wrapper .task-content .task-texts .taskee div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  font-size: 15px;
+  color: #003cc2;
+}
+.single-task .wrapper .task-content .task-texts button {
+  width: 300px;
+  background-color: #003cc2;
+  border: 1px solid #003cc2;
+}
+.single-task .wrapper .task-content .task-texts button:hover {
+  width: 300px;
+  background-color: white;
+  border: 1px solid #003cc2;
+  color: #003cc2;
+}
+.single-task .wrapper .task-content .image img {
+  width: 100%;
+}
+.single-task .wrapper .task-content .tasker-requirements form .input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.single-task
+  .wrapper
+  .task-content
+  .tasker-requirements
+  form
+  .input-group
+  input {
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid #003cc2;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.single-task
+  .wrapper
+  .task-content
+  .tasker-requirements
+  form
+  .input-group
+  button {
+  border-radius: 50px;
+  border: 1px solid #003cc2;
+  background-color: #003cc2;
+  cursor: pointer;
+  color: white;
+  height: 40px;
+  width: 340px;
+}
+
+@media (max-width: 900px) {
+  .single-task {
+    /* border: 1px solid; */
+  }
+  .single-task .wrapper {
+    /* border: 1px solid; */
+  }
+  .cancel {
+  }
+  .cancel .cancel-tasker-section {
+  }
+  .single-task .wrapper .task-content {
+    flex-direction: column;
+    align-items: center;
+    /* border: 1px solid; */
+  }
+
+  .single-task .wrapper .tasker-section {
+  }
+  .single-task .wrapper .task-content h1,
+  .single-task .wrapper .task-content h2 {
+    /* text-align: center; */
+    color: #003cc2;
+  }
+  .single-task .wrapper .task-content .image,
+  .single-task .wrapper .task-content .task-texts {
+    align-items: center;
+    /* border: 1px solid; */
+    width: 100%;
+  }
+  .single-task .wrapper .task-content .task-texts .taskee {
+    border-top: 1px solid #003cc2;
+    padding-top: 20px;
+    flex-wrap: wrap;
+  }
+  .single-task .wrapper .task-content .task-texts .taskee div {
+    margin: 5px;
+  }
+  .single-task .wrapper .task-content .task-texts button {
+    width: 200px;
+  }
+  .single-task .wrapper .task-content .task-texts button:hover {
+  }
+  .single-task .wrapper .task-content .image img {
+  }
+  .single-task .wrapper .task-content .tasker-requirements form .input-group {
+  }
+  .single-task
+    .wrapper
+    .task-content
+    .tasker-requirements
+    form
+    .input-group
+    input {
+  }
+  .single-task
+    .wrapper
+    .task-content
+    .tasker-requirements
+    form
+    .input-group
+    button {
+  }
+}

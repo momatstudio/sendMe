@@ -1,0 +1,87 @@
+.post-task {
+  display: flex;
+  justify-content: center;
+}
+.post-task .wrapper {
+  flex-direction: column;
+  align-items: center;
+  /* border: 1px solid; */
+  margin-top: 130px;
+}
+.post-task .wrapper h1 {
+}
+.post-task .wrapper .box {
+  border: 1px solid #003cc2;
+  width: 750px;
+  padding: 20px 0;
+  border-radius: 10px;
+}
+.post-task .wrapper form {
+}
+.post-task .wrapper .input-group {
+}
+.post-task .wrapper .input-group label {
+}
+.post-task .wrapper .input-group input {
+}
+.wrapper .box form .input-group .button {
+  text-align: center;
+  border-radius: 50px;
+  border: 1px solid rgb(24, 51, 152);
+  background-color: #003cc2;
+  color: white;
+  font-size: 13px;
+  margin-bottom: 10px;
+  width: 320px;
+  height: 40px;
+  cursor: pointer;
+}
+.wrapper .box form .input-group .submit {
+  border: 1px solid #2cd23c;
+  background-color: #2cd23c;
+}
+.wrapper .box form .input-group .button:hover {
+  color: rgb(24, 51, 152);
+  background-color: white;
+  border: 1px solid #003cc2;
+}
+textarea {
+  border: 1px solid #003cc2;
+}
+
+@media (max-width: 750px) {
+  .post-task {
+    /* border: 1px solid; */
+  }
+  .post-task .wrapper {
+    /* border: 1px solid; */
+    padding-bottom: 20px;
+  }
+  .post-task .wrapper h1 {
+  }
+  .post-task .wrapper .box {
+    width: 100%;
+  }
+  .post-task .wrapper form {
+    width: 100%;
+  }
+  .post-task .wrapper .input-group {
+    width: 100%;
+  }
+  .post-task .wrapper .input-group label {
+  }
+  .post-task .wrapper .input-group input {
+  }
+  .post-task .wrapper .input-group textarea {
+    width: 220px;
+  }
+  .wrapper .box form .input-group .button {
+    width: 220px;
+  }
+  .wrapper .box form .input-group .submit {
+  }
+  .wrapper .box form .input-group .button:hover {
+  }
+  textarea {
+  }
+}
